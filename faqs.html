@@ -1,0 +1,620 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Union Andina 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>    
+    <link rel="stylesheet" href="./css/normalize.css"/>
+    <link rel="stylesheet" href="./plugins/swiperSlider/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <?php wp_head(); ?>
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+            <a class="side_button">
+                <div class="cont_icon">
+                    <span class="fas fa-dollar-sign"></span>
+                </div>
+                <div class="s_btn_txt_fixed">
+                    Simula tu crédito
+                </div>
+            </a>
+            <aside class="side_form" hidden>
+                <button class="close_aside_form">
+                    <span class="far fa-times"></span>
+                </button>
+                <a href="">
+                    <img width="172" height="46" src="images/diseno/logo_UA_1.svg" alt="">
+                </a>
+                <form class="aside_form_credito" action="">
+                    <div class="cont_input">
+                        <input id="afc1" type="text" placeholder=" ">
+                        <label for="afc1">Nombre</label>
+                    </div>
+                    <div class="cont_input">
+                        <input id="afc2" type="text" placeholder=" ">
+                        <label for="afc2">Apellido</label>
+                    </div>
+                    <div class="cont_input">
+                        <input id="afc3" type="email" placeholder=" ">
+                        <label for="afc3">Email</label>
+                    </div>
+                    <div class="col_div_forms1-3">
+                        <div class="cont_input">
+                            <select name="" id="">
+                                <option value="" selected disabled>Prefijo país</option>
+                                <option value="">+52</option>
+                                <option value="">+53</option>
+                                <option value="">+51</option>
+                                <option value="">+52</option>
+                                <option value="">+53</option>
+                                <option value="">+51</option>
+                                <option value="">+52</option>
+                                <option value="">+53</option>
+                                <option value="">+51</option>
+                                <option value="">+52</option>
+                                <option value="">+53</option>
+                            </select>
+                        </div>
+                        <div class="cont_input">
+                            <input id="afc4" type="tel" placeholder=" ">
+                            <label for="afc4">Teléfono</label>
+                        </div>
+                    </div>
+                    <div class="cont_input">
+                        <select name="" id="">
+                            <option value="" selected disabled>Ciudad de interés</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                        </select>
+                    </div>
+                    <div class="cont_input">
+                        <select name="" id="">
+                            <option value="" selected disabled>Paíse de residencia</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                        </select>
+                    </div>
+                    <div class="cont_input">
+                        <select name="" id="">
+                            <option value="" selected disabled>¿Qué necesitas?</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                        </select>
+                    </div>
+                    <div class="cont_term_send">
+                        <div class="cont_terminos">
+                            <input type="checkbox">
+                            <label for="">Acepto los <a href="">Terminos y condiciones</a> </label>
+                        </div>
+                        <div class="cont_btn_contacto">
+                            <a class="btn_red_m" href="">Quiero que me contacten <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                        <div class="txt_opcional_termin">
+                            ó escoge tu mismo el día y la hora en la que quieres tu asesoría
+                        </div>
+                        <div class="cont_btn_cita">
+                            <a class="btn_red_m" href="">Agenda tu cita aquí <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                        
+                    </div>
+                </form>
+            </aside>
+            <div class="cont_nav">
+                <h1 class="logo_ua">
+                    <a href="">
+                        <img width="172" src="./images/diseno/logo_UA_1.svg" alt="">
+                    </a>                
+                </h1>
+                <nav class="nav">
+                    <ul class="navDesktop">
+                        <li><a href="">¿Cómo invertir en vivienda?</a></li>
+                        <li><a class="active" href="">Encuentra tu casa</a></li>
+                        <li><a href="">Crédito de vivienda</a></li>
+                        <li><a href="">¿Quiénes somos?</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">FAQ´S</a></li>
+                        <li><a class="btn_red_m" href="">Quiero asesorarme</a></li>
+                    </ul>
+                    <ul class="navMobile">
+                        <li>
+                            <a href="">
+                                <span class="fal fa-phone-alt"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="fal fa-envelope"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="menu_mobile">
+                                <span class="fas fa-bars"></span>
+                            </a>
+                            <span class="bg_dark"></span>
+                        </li>
+                    </ul>
+                </nav>
+                
+            </div>
+        
+    </header>
+
+    <main>
+        <div class="spacer"></div>
+        <section class="s_header_page">
+            <span class="filter_gradient"></span>
+            <picture>
+                <img width="1440" height="600" src="images/diseno/03-faqs/img-header.jpg" alt="">
+            </picture>
+            <div class="center">
+                <div class="cont_header_page">
+
+                    <div class="miga">
+                        <a href="">Union Andina</a>
+                        <span> > </span>
+                        <a href="">Nombre de la interna actual</a>
+                    </div>
+
+                    <h2 class="title_page">
+                        Preguntas habituales
+                        <span class="subtitle_page">No hay pregunta que no podamos resolver</span>
+                    </h2>
+                </div>
+            </div>
+        </section>   
+        
+        <section class="s_preguntas_habituales">
+            <div class="center">
+                <div class="cont_gen_faqs">
+
+                    <aside class="cont_cat_preguntas">
+                        <ul>
+                            <li data-pregunta="p1" class="active_cat_preguntas"> Preguntas Generales </li>
+                            <li data-pregunta="p2" class=""> PREGUNTAS SOBRE COMPRA DE VIVIENDA </li>
+                            <li data-pregunta="p3" class=""> PREGUNTAS CREDITO HIPOTECARIO </li>
+                            <li data-pregunta="p4" class=""> PREGUNTAS SOBRE ESCRITURACIÓN </li>
+                        </ul>
+                    </aside>
+                    <div  data-pregunta="p1" class="cont_preguntas active_cont_p">
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta active_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div  data-pregunta="p2" class="cont_preguntas">
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta active_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div  data-pregunta="p3" class="cont_preguntas">
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta active_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div  data-pregunta="p4" class="cont_preguntas">
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta active_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        <div class="pregunta-item">
+                            <div class="tit_pregunta">
+                                <h5>¿Porque no hacer el proceso directamente con la Constructora?</h5>
+                                <span class="fas fa-times"></span>
+                            </div>
+                            <div class="cont_respuesta">
+                                Porque el hacerlo directamente con Unión Andina no le genera ninguna diferencia en cuanto a precios de las viviendas o forma de pago.
+                                Porque le facilitamos y acompañamos en la elección de la vivienda, elaboración de el plan de pagos, apertura de su encargo fiduciario y todo lo referente a la compra de su vivienda hasta la entrega de sus llaves.
+    
+                                Porque somos el canal de ventas en el exterior de las principales constructoras en todo el País.
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        
+        <script src="./plugins/swiperSlider/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+
+        
+        <div class="cont_footer">
+            <div class="col_footer">
+                <a href="">
+                    <img width="224" height="67" src="images/diseno/Logo_blanco.png" alt="">
+                </a>
+                <h1 class="txt_seo_footer">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque dolor, vitae modi excepturi perspiciatis doloribus et, magni earum praesentium
+                </h1>
+            </div>
+            <div class="col_footer">
+                <h5>MENÚ</h5>
+                <ul>
+                    <li> <a href="">Encuentra tu casa</a> </li>
+                    <li> <a href="">¿Quiénes somos?</a> </li>
+                    <li> <a href="">Blog</a> </li>
+                    <li> <a href="">Pregunta Frecuentes</a> </li>
+                    <li> <a href="">Contáctenos</a> </li>
+                </ul>
+            </div>
+            <div class="col_footer">
+                <h5>Servicios</h5>
+                <ul>
+                    <li> <a href="">Subsidios</a> </li>
+                    <li> <a href="">interna</a> </li>
+                    <li> <a href="">interna</a> </li>
+                    <li> <a href="">interna</a> </li>
+                    <li> <a href="">interna</a> </li>
+                </ul>
+            </div>
+            <div class="col_footer">
+                <h5>PROYECTOS</h5>
+                <ul>
+                    <li> <a href="">Bogotá</a> </li>
+                    <li> <a href="">Cali</a> </li>
+                    <li> <a href="">Medellín</a> </li>
+                    <li> <a href="">Barranquilla</a> </li>
+                </ul>
+            </div>
+            <div class="col_footer cont_footer_pago">
+                <h5>Pagos</h5>
+                <a href="">
+                    <img width="216" height="63" src="images/diseno/btn_pago_enlinea.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="center">
+
+            <div class="sub_footer">
+                <span>TODOS LOS DERECHOS REERVADOS © UNION ANDINA COLOMBIA.</span>
+                <a href="">Términos y condiciones</a>
+                <span> - </span>
+                <a href="">políticas de privacidad</a>
+                <div class="cont_redes_footer">
+                    <a href=""><span class="far fa-facebook-f"></span></a>
+                    <a href=""><span class="far fa-instagram"></span></a>
+                    <a href=""><span class="far fa-youtube"></span></a>
+                    <a href=""><span class="far fa-linkedin-in"></span></a>
+                </div>
+            </div>
+        </div>
+
+        
+    </footer>
+
+    
+</body>
+</html>

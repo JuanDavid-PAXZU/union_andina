@@ -1,0 +1,453 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Union Andina 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>    
+    <link rel="stylesheet" href="./css/normalize.css"/>
+    <link rel="stylesheet" href="./plugins/swiperSlider/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <?php wp_head(); ?>
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+            <a class="side_button">
+                <div class="cont_icon">
+                    <span class="fas fa-dollar-sign"></span>
+                </div>
+                <div class="s_btn_txt_fixed">
+                    Simula tu crédito
+                </div>
+            </a>
+            <aside class="side_form" hidden>
+                <button class="close_aside_form">
+                    <span class="far fa-times"></span>
+                </button>
+                <a href="">
+                    <img width="172" height="46" src="images/diseno/logo_UA_1.svg" alt="">
+                </a>
+                <form class="aside_form_credito" action="">
+                    <div class="cont_input">
+                        <input id="afc1" type="text" placeholder=" ">
+                        <label for="afc1">Nombre</label>
+                    </div>
+                    <div class="cont_input">
+                        <input id="afc2" type="text" placeholder=" ">
+                        <label for="afc2">Apellido</label>
+                    </div>
+                    <div class="cont_input">
+                        <input id="afc3" type="email" placeholder=" ">
+                        <label for="afc3">Email</label>
+                    </div>
+                    <div class="col_div_forms1-3">
+                        <div class="cont_input">
+                            <select name="" id="">
+                                <option value="" selected disabled>Prefijo país</option>
+                                <option value="">+52</option>
+                                <option value="">+53</option>
+                                <option value="">+51</option>
+                                <option value="">+52</option>
+                                <option value="">+53</option>
+                                <option value="">+51</option>
+                                <option value="">+52</option>
+                                <option value="">+53</option>
+                                <option value="">+51</option>
+                                <option value="">+52</option>
+                                <option value="">+53</option>
+                            </select>
+                        </div>
+                        <div class="cont_input">
+                            <input id="afc4" type="tel" placeholder=" ">
+                            <label for="afc4">Teléfono</label>
+                        </div>
+                    </div>
+                    <div class="cont_input">
+                        <select name="" id="">
+                            <option value="" selected disabled>Ciudad de interés</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                        </select>
+                    </div>
+                    <div class="cont_input">
+                        <select name="" id="">
+                            <option value="" selected disabled>Paíse de residencia</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                        </select>
+                    </div>
+                    <div class="cont_input">
+                        <select name="" id="">
+                            <option value="" selected disabled>¿Qué necesitas?</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                            <option value="">Ciudad</option>
+                        </select>
+                    </div>
+                    <div class="cont_term_send">
+                        <div class="cont_terminos">
+                            <input type="checkbox">
+                            <label for="">Acepto los <a href="">Terminos y condiciones</a> </label>
+                        </div>
+                        <div class="cont_btn_contacto">
+                            <a class="btn_red_m" href="">Quiero que me contacten <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                        <div class="txt_opcional_termin">
+                            ó escoge tu mismo el día y la hora en la que quieres tu asesoría
+                        </div>
+                        <div class="cont_btn_cita">
+                            <a class="btn_red_m" href="">Agenda tu cita aquí <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                        
+                    </div>
+                </form>
+            </aside>
+            <div class="cont_nav">
+                <h1 class="logo_ua">
+                    <a href="">
+                        <img width="172" src="./images/diseno/logo_UA_1.svg" alt="">
+                    </a>                
+                </h1>
+                <nav class="nav">
+                    <ul class="navDesktop">
+                        <li><a href="">¿Cómo invertir en vivienda?</a></li>
+                        <li><a class="active" href="">Encuentra tu casa</a></li>
+                        <li><a href="">Crédito de vivienda</a></li>
+                        <li><a href="">¿Quiénes somos?</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">FAQ´S</a></li>
+                        <li><a class="btn_red_m" href="">Quiero asesorarme</a></li>
+                    </ul>
+                    <ul class="navMobile">
+                        <li>
+                            <a href="">
+                                <span class="fal fa-phone-alt"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="fal fa-envelope"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="menu_mobile">
+                                <span class="fas fa-bars"></span>
+                            </a>
+                            <span class="bg_dark"></span>
+                        </li>
+                    </ul>
+                </nav>
+                
+            </div>
+        
+    </header>
+
+    <main>
+        <div class="spacer"></div>
+        <section class="s_header_page">
+            <span class="filter_gradient"></span>
+            <picture>
+                <img width="1440" height="600" src="images/diseno/08-credito-vivienda/banner_header-credito.png" alt="">
+            </picture>
+            <div class="center">
+                <div class="cont_header_page">
+
+                    <div class="miga">
+                        <a href="">Union Andina</a>
+                        <span> > </span>
+                        <a href="">Nombre de la interna actual</a>
+                    </div>
+
+                    <h2 class="title_page">
+                        Crédito de vivienda <br> en colombia
+                    </h2>
+                </div>
+            </div>
+        </section> 
+
+        <section class="s_aliados">
+            <div class="center">
+                <div class="cont_gen_aliados">
+                    <div class="cont_titulo_ua">
+                        <h3>
+                            Nuestros aliados <br>
+                            <span>Con la tranquilidad y el respaldo que solo pueden dar:</span>
+                        </h3>
+                    </div>
+                    <div class="cont_logos_s_aliados">
+                        <picture>
+                            <img width="253" height="63" src="images/diseno/01-home/bancolombia.jpg" alt="">
+                        </picture>
+                        <picture>
+                            <img width="253" height="63" src="images/diseno/01-home/davivienda.jpg" alt="">
+                        </picture>
+                        <picture>
+                            <img width="253" height="63" src="images/diseno/01-home/giros.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="cond_desc_s_aliados">
+                        Somos el aliado más importante para Bancolombia y Davivienda,  lideres en crédito de vivienda para Colombianos en el exterior. <br><br>
+
+Tenemos convenio con las constructoras más importantes del país para que puedas invertir en vivienda en Colombia con seguridad y tranquilidad 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s_credito_hipotecario">
+            <div class="cont_titulo_ua">
+                <h3>
+                    Obtén tu crédito hipotecario <br>
+                    <span>para tu vivienda nueva o usada</span>
+                </h3>
+            </div>
+            <div class="cont_gen_credito_h">
+                <div class="col_slider">
+
+                </div>
+                <div class="col_items_hipotecario">
+                    <div class="item_h">
+                        <picture>
+                            <img width="31" height="35" src="images/diseno/08-credito-vivienda/i1_porcentaje.svg" alt="">
+                        </picture>
+                        <div>
+                            Obtén hasta el 80% de financiación de tu inmueble.
+                        </div>
+                    </div>
+                    <div class="item_h">
+                        <picture>
+                            <img width="31" height="35" src="images/diseno/08-credito-vivienda/i2_pesos.svg" alt="">
+                        </picture>
+                        <div>
+                            Crédito en pesos colombianos con cuotas fijas de principio a fin.
+                        </div>
+                    </div>
+                    <div class="item_h">
+                        <picture>
+                            <img width="31" height="35" src="images/diseno/08-credito-vivienda/i3_calendar.svg" alt="">
+                        </picture>
+                        <div>
+                            Plazos de 10 a 20 años, dependiendo de tu país de residencia.
+                        </div>
+                    </div>
+                    <div class="item_h">
+                        <picture>
+                            <img width="31" height="35" src="images/diseno/08-credito-vivienda/i4_pesos.svg" alt="">
+                        </picture>
+                        <div>
+                            Puedes hacer cancelación anticipada o pagos a capital sin ningún tipo de penalidad.
+                        </div>
+                    </div>
+                    <div class="item_h">
+                        <picture>
+                            <img width="31" height="35" src="images/diseno/08-credito-vivienda/i5_credito.svg" alt="">
+                        </picture>
+                        <div>
+                            El crédito no queda reflejado en tu país de residencia.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s_credito_pasos">
+            <div class="center">
+                <div class="cont_titulo_ua">
+                    <h3>
+                        Estas a solo 4 pasos de obtener<br>
+                        <span>tu crédito hipotecario</span>
+                    </h3>
+                </div>
+                <div class="cont_gen_pasos_credito">
+                    <div class="card_pasos_credito">
+                        <picture>
+                            <img width="262px" height="262" src="" alt="">
+                        </picture>
+                        <div class="desc_txt_pasos">
+                            <h4>Queremos conocerte un poco más:</h4>
+                            <div>Pre-calficate al momento y conoce el monton al que puedes optar. Despues será necesario recopilar alguna documentación para continuar con el trámite ante la entidad financiera que mejor se acomode a tus necesidades</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s_credito_requisitos">
+            <div class="center">
+                <div class="cont_titulo_ua">
+                    <h3>
+                        ¿Como sé si cumplo los requisitos<br>
+                        <span>para obtener mi crédito?</span>
+                    </h3>
+                </div>
+                <div class="cont_gen_credito_r">
+                    <div class="card_credito_r">
+                        <picture>
+                            <img width="31px" height="31px" src="" alt="">
+                        </picture>
+                        <div>
+                            ¿Eres colombiano residente en el exterior o extranero casado con colombiano residente en el exterior?
+                        </div>
+                    </div>
+                    <div class="card_credito_r">
+                        <picture>
+                            <img width="31px" height="31px" src="" alt="">
+                        </picture>
+                        <div>
+                            ¿Eres colombiano residente en el exterior o extranero casado con colombiano residente en el exterior?
+                        </div>
+                    </div>
+                    <div class="card_credito_r">
+                        <picture>
+                            <img width="31px" height="31px" src="" alt="">
+                        </picture>
+                        <div>
+                            ¿Eres colombiano residente en el exterior o extranero casado con colombiano residente en el exterior?
+                        </div>
+                    </div>
+                    <div class="card_credito_r">
+                        <picture>
+                            <img width="31px" height="31px" src="" alt="">
+                        </picture>
+                        <div>
+                            ¿Eres colombiano residente en el exterior o extranero casado con colombiano residente en el exterior?
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_txt_btn">
+                    <div>
+                        Si tu respuestas a la mayoria de estas preguntas es SI...
+                    </div>
+                    <a href="" class="btn_red_s">Inicia tu pre-calificación aquí <span class="fas fa-chevron-right"></span></a>
+                </div>
+            </div>
+            <div class="center">
+                <form action="" class="cont_gen_simulador_form">
+                    <picture>
+                        Quiero simular mi crédito
+                    </picture>
+                    <div class="cont_inputs">
+                        <label for="">¿Cuanto cuesta la vivienda?</label>
+                        <input type="number">
+                    </div>
+                    <div class="cont_inputs">
+                        <label for="">¿En cuanto tiempo quieres devolverlo?</label>
+                        <input type="range" min="1" max="50">
+                    </div>
+                    <div class="cont_inputs">
+                        <label for="">Monto a financiar</label>
+                        <select name="" id="">
+                            <option selected disabled value="">Eligue un porcentaje</option>
+                            <option value="">70%</option>
+                            <option value="">80%</option>
+                            <option value="">90%</option>
+                        </select>
+                        <div class="input_respuesta">
+                            <span>$</span>
+                        </div>
+                    </div>
+                    <div class="cont_terminos_label">
+                        <label for="">Crédito de vivienda: Te prestamos hasta el 70% del valor comercial de la vivienda No VIS y hasta el 80% de la vivienda VIS.</label>
+                        <label for="">Leasing Habitacional: Te prestamos hasta el 80% del valor comercial de la vivienda No VIS.</label>
+                    </div>
+                    <div class="cont_btn_simulador">
+                        <a href="" class="btn_red_s">SIMULAR CRÉDITO <span class="fas fa-chevron-right"></span> </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        
+        <script src="./plugins/swiperSlider/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+
+        
+        <div class="cont_footer">
+            <div class="col_footer">
+                <a href="">
+                    <img width="224" height="67" src="images/diseno/Logo_blanco.png" alt="">
+                </a>
+                <h1 class="txt_seo_footer">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque dolor, vitae modi excepturi perspiciatis doloribus et, magni earum praesentium
+                </h1>
+            </div>
+            <div class="col_footer">
+                <h5>MENÚ</h5>
+                <ul>
+                    <li> <a href="">Encuentra tu casa</a> </li>
+                    <li> <a href="">¿Quiénes somos?</a> </li>
+                    <li> <a href="">Blog</a> </li>
+                    <li> <a href="">Pregunta Frecuentes</a> </li>
+                    <li> <a href="">Contáctenos</a> </li>
+                </ul>
+            </div>
+            <div class="col_footer">
+                <h5>Servicios</h5>
+                <ul>
+                    <li> <a href="">Subsidios</a> </li>
+                    <li> <a href="">interna</a> </li>
+                    <li> <a href="">interna</a> </li>
+                    <li> <a href="">interna</a> </li>
+                    <li> <a href="">interna</a> </li>
+                </ul>
+            </div>
+            <div class="col_footer">
+                <h5>PROYECTOS</h5>
+                <ul>
+                    <li> <a href="">Bogotá</a> </li>
+                    <li> <a href="">Cali</a> </li>
+                    <li> <a href="">Medellín</a> </li>
+                    <li> <a href="">Barranquilla</a> </li>
+                </ul>
+            </div>
+            <div class="col_footer cont_footer_pago">
+                <h5>Pagos</h5>
+                <a href="">
+                    <img width="216" height="63" src="images/diseno/btn_pago_enlinea.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="center">
+
+            <div class="sub_footer">
+                <span>TODOS LOS DERECHOS REERVADOS © UNION ANDINA COLOMBIA.</span>
+                <a href="">Términos y condiciones</a>
+                <span> - </span>
+                <a href="">políticas de privacidad</a>
+                <div class="cont_redes_footer">
+                    <a href=""><span class="far fa-facebook-f"></span></a>
+                    <a href=""><span class="far fa-instagram"></span></a>
+                    <a href=""><span class="far fa-youtube"></span></a>
+                    <a href=""><span class="far fa-linkedin-in"></span></a>
+                </div>
+            </div>
+        </div>
+
+        
+    </footer>
+
+    
+</body>
+</html>
